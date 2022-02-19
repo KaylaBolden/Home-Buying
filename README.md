@@ -193,7 +193,7 @@ This data set includes:
 
 
 # Tableau
-A full analysis with visuals breaking down key drivers and customer demographic profiles can be found in [**Credit Card Offers.twbx**](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Credit%20Card%20Offers.twbx). 
+A full analysis with visuals breaking down key drivers of home value can be found in [**Home Buying**](https://public.tableau.com/views/HomeBuying_16452186025640/TotalViews?:language=en-US&:display_count=n&:origin=viz_share_link). 
 
 # Presentation
 A powerpoint containing the agenda and tying it all together can be found in [**Offer Acceptance Slides.pptx**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home%20Buying.pptx). 

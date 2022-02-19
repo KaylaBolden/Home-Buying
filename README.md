@@ -126,39 +126,39 @@ cbd | yearrenovated
 
 # Feature Importance:
     
-Feature | Regression P-Val | Random Forest Feature Importance
-------------- | ------------- | -------------
-daysonmarket | 0.518 | 0.00592214
-publicstudentteacherratio | 0.344 | 0.004352648
-publicstudentcnt | 0.946 | 0.005487916
-privatestudentcnt | 0.385 | 0.006992907
-squarefeet | 0 | 0.02421013
-totaltourcount | 0.161 | 0.001894489
-privaterate | 0.128 | 0.005642923
-garage_parking_square_feet | 0.009 | 0.0081063
-totalfavoritescount | 0 | 0.008720093
-publicschoolrate | 0.001 | 0.006671266
-basement_square_feet | 0.038 | 0.001758376
-land_square_footage | 0.002 | 0.01105095
-acres | 0.319 | 0.02747586
-taxrate | 0 | 0.04166951
-totalamenities | 0.488 | 0.005520898
-x2_Condo&Manufactured | 0.19 | 0.002256557
-x2_Multi-Family | 0.195 | 0.001505547
-Foundation_Continuous Footing | 0 | 0.02464942
-Foundation_other | 0 | 0.007086104
-Garage_Finished | 0.02 | 0.002233992
-Garage_other | 0.328 | 0.00693243
-Building_Quality_0 | 0 | 0.4383543
-Building Quality_3 | 0 | 0.08868372
-Walls_0 | 0.005 | 0.002632515
-Walls_1 | 0.006 | 0.004978199
-Walls_4 | 0 | 0.007193782
-Roof_0 | 0.065 | 0.06866194
-Roof_1 | 0 | 0.005233747
-Roof_2 | 0 | 0.006545969
-Roof_3 | 0 | 0.1469811
-Location_2 | 0.068 | 0.00129702
+    |Feature | Regression P-Val | Random Forest Feature Importance
+    |------------- | ------------- | -------------
+    |daysonmarket | 0.518 | 0.00592214
+    |publicstudentteacherratio | 0.344 | 0.004352648
+    |publicstudentcnt | 0.946 | 0.005487916
+    |privatestudentcnt | 0.385 | 0.006992907
+    |squarefeet | 0 | 0.02421013
+    |totaltourcount | 0.161 | 0.001894489
+    |privaterate | 0.128 | 0.005642923
+    |garage_parking_square_feet | 0.009 | 0.0081063
+    |totalfavoritescount | 0 | 0.008720093
+    |publicschoolrate | 0.001 | 0.006671266
+    |basement_square_feet | 0.038 | 0.001758376
+    |land_square_footage | 0.002 | 0.01105095
+    |acres | 0.319 | 0.02747586
+    |taxrate | 0 | 0.04166951
+    |totalamenities | 0.488 | 0.005520898
+    |x2_Condo&Manufactured | 0.19 | 0.002256557
+    |x2_Multi-Family | 0.195 | 0.001505547
+    |Foundation_Continuous Footing | 0 | 0.02464942
+    |Foundation_other | 0 | 0.007086104
+    |Garage_Finished | 0.02 | 0.002233992
+    |Garage_other | 0.328 | 0.00693243
+    |Building_Quality_0 | 0 | 0.4383543
+    |Building Quality_3 | 0 | 0.08868372
+    |Walls_0 | 0.005 | 0.002632515
+    |Walls_1 | 0.006 | 0.004978199
+    |Walls_4 | 0 | 0.007193782
+    |Roof_0 | 0.065 | 0.06866194
+    |Roof_1 | 0 | 0.005233747
+    |Roof_2 | 0 | 0.006545969
+    |Roof_3 | 0 | 0.1469811
+    |Location_2 | 0.068 | 0.00129702
 
 
     Out of all the methods, Random Forest and Min-max scaler produced the highest accuracy:
@@ -166,8 +166,7 @@ Location_2 | 0.068 | 0.00129702
 
 # Results and conlusions 
       The accuracy of the random forest model on test set is: 44,124 and on the for sale set is: 50,423. Assuming there is no difference between the homes in the two sets, it stands to reason the additional discrepenct from test to sale is the market inefficiency.
-![photo](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Screen%20Shot%202021-12-04%20at%204.51.05%20PM.png)
-
+![photo](https://github.com/KaylaBolden/Home-Buying/tree/main/Screenshots)
 
 ## Dataset
 
@@ -176,7 +175,7 @@ The dataset after all cleaning and including all the models' predictions is [**w
 
 This data set includes:
 
-1. **CreditCardMarketing** data:
+1. **Home Buying** data:
 
     |   |   |
     |---|---|
@@ -193,11 +192,8 @@ This data set includes:
     |||
 
 
-# SQL
-The dataset provided [**Classisfication Model.sql**](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Classisfication%20Model.sql). 
-
 # Tableau
 A full analysis with visuals breaking down key drivers and customer demographic profiles can be found in [**Credit Card Offers.twbx**](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Credit%20Card%20Offers.twbx). 
 
 # Presentation
-A powerpoint containing the agenda and tying it all together can be found in [**Offer Acceptance Slides.pptx**](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Offer%20Acceptance%20Slides.pptx). 
+A powerpoint containing the agenda and tying it all together can be found in [**Offer Acceptance Slides.pptx**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home%20Buying.pptx). 

@@ -1,14 +1,11 @@
 # Home-Buying
 
 
-![photo](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Screen%20Shot%202021-12-04%20at%205.08.14%20PM.png)
+![photo](https://github.com/KaylaBolden/Home-Buying)
 
 # Objective 
-Credit Card Services are a large revenue driver for the bank, however blindly offering to everyone is costly and inefficient. It is necessary to understand what our market looks like and who best to target.. 
+The housing market is nutoriouosly inefficient. Identifying the true value of a home compared to the price gives us an opportunity to use this inefficiency to our advantage. The goal is to build an algorythm that can identify how much a house is worth so that we can find opportunities for arbitrage when a home hits the market below its worth. If we can move fast enough via web scrapping thousands of for sale records and generating this output, we may be able make money before other bidders drive up the price.
 
-\*\* You are provided with the rubrics that will be used to evaluate the projects. Please go through the document for more details on the specificities for different files.
-So, the goal is to understand the demographics and other characteristics of the bank’s customers that accept a credit card offer and that do not accept a credit card.
-Build a model to predict if a customer is likely to accept or reject a credit card offer.
 
  # Used tools 
   Programs: 
@@ -19,15 +16,18 @@ Build a model to predict if a customer is likely to accept or reject a credit ca
 
   Methods:
 
-      1. Logistic Regression
-      2. Histograms, distribution plots, heat maps, box-whisker plots, confusion matrix, bar plots
+      1. Linear Regression
+      2. Random Forest
+      3. Neural Networks
+      4. Web Scrapping
+      5. API Connection 
+      2. Histograms, distribution plots, heat maps, box-whisker plots, bar plots, Chi squared testing, Hyperparameter tuning
 
   Libraries:
 
       1. Normalizer
       2. StandardScaler
-      3. confusion_matrix
-      4. cohen_kappa_score
+      3. Min Max Scaler
       5. math
       6. statistics 
       7. matplotlib.pyplot
@@ -40,30 +40,52 @@ Build a model to predict if a customer is likely to accept or reject a credit ca
       14. statsmodels.formula.api
       15. linear_model
       16. is_numeric_dtype
-      17. LogisticRegression
-      18. roc_auc_score
-      19. accuracy_score
-      20. PIL
+      17. Redfin
+      scipy
+      requests
+      urllib.parse
+      chi2_contingency
+      DBSCAN
+      LinearRegression
+      sklearn.metrics
+      sklearn.feature_selection
+      sklearn.linear_model
+      mean_squared_error
+      r2_score
+      mean_absolute_error
+      statsmodels.api 
+      tensorflow
+      train_test_split
+      RandomForestRegressor
+      make_regression
+      variance_inflation_factor
+      GridSearchCV
+      sklearn.decomposition.PCA
 
  # Workflow
       1. Gather the Data 
       2. Explore the Data 
-      3. Clean the Data 
+      3. Dealing with Nulls 
+      4. Clean the Data 
           a. Categorical data: 
             i. needs to be grouped into fewer buckets
             ii. dropped if there are too many instances
             iii. cleaned if there are various values with the same meaning 
           b. Numerical data: 
             i. needs to be converted to number if object (may require functions for data transformations)
-      4. Dealing with Nulls 
       5. Dealing with Outliers 
       6. Transform numerical columns to conform to a more normal standard distribution
-      7. Check Multicollinearity (but no need to modify since logistic regression isn't impacted by multicollinearity) 
-      8. Normalize and or standardize the data 
-      9. Check and rectify data imbalance
+      7. Check Multicollinearity
+          a. Numeric- VIF and correlation matrix
+          b. Categorical - chi squared testing
+      8. Normalize, Min-max, or standardize the data 
+      9. Build Clusters using DBScan
       10. Apply Train-Test Split 
-      11. Train Model 
-      12. Test Model
+      11. Hyoerparameter tuning for feature selection
+      12. Train and Test random forest (since extra features don't hinder the model)
+      12. Remove extra features based on feature importance
+      11. Train Model Linear and Neural Network models
+      12. Test Model Linear and Neural Network models
 
 # Transformations
     Tested a variety of methods to convert my continuos variables into normal distributions:
@@ -72,7 +94,9 @@ Build a model to predict if a customer is likely to accept or reject a credit ca
     3. square
     4. cubed 
 
-    Ultimately the square root was the best transformation on the quarterly variables. While the log transformation was the best for the average balance variable. 
+    Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 # Scaling and Balancing data
 

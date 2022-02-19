@@ -196,7 +196,7 @@ This data set includes:
 A full analysis with visuals breaking down key drivers of home value can be found in [**Home Buying**](https://public.tableau.com/views/HomeBuying_16452186025640/TotalViews?:language=en-US&:display_count=n&:origin=viz_share_link). 
 
 # Presentation
-A powerpoint containing the agenda and tying it all together can be found in [**Offer Acceptance Slides.pptx**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home%20Buying.pptx). 
+A powerpoint containing the agenda and tying it all together can be found in [**Home Buying.pptx**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home%20Buying.pptx). 
 
 # Jupyter Notebook
 A python code for data gathering can be found in [**Data Gathering.ipynb**](https://github.com/KaylaBolden/Home-Buying/blob/main/Data%20Gathering.ipynb). 

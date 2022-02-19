@@ -162,17 +162,17 @@ Location_2 | 0.068 | 0.00129702
 
 
     Out of all the methods, Random Forest and Min-max scaler produced the highest accuracy:
-![photo](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/table.png)
+![photo](https://github.com/KaylaBolden/Home-Buying/blob/main/Screenshots/Picture1.png)
 
 # Results and conlusions 
-      The accuracy of the model on test set is: 0.70 and the Kappa of the model is: 0.41. The ROC-AUC is 77%
+      The accuracy of the random forest model on test set is: 44,124 and on the for sale set is: 50,423. Assuming there is no difference between the homes in the two sets, it stands to reason the additional discrepenct from test to sale is the market inefficiency.
 ![photo](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/Screen%20Shot%202021-12-04%20at%204.51.05%20PM.png)
 
 
 ## Dataset
 
-The dataset provided [**creditcardmarketing.csv**](https://github.com/KaylaBolden/data_mid_bootcamp_project_classification/blob/master/creditcardmarketing.csv) 
-
+The dataset after gathering the data is [**finalDatecsv**](https://github.com/KaylaBolden/Home-Buying/blob/main/finalData.csv).
+The dataset after all cleaning and including all the models' predictions is [**withpredictions.xlsx**](https://github.com/KaylaBolden/Home-Buying/blob/main/withpredictions.xlsx).
 
 This data set includes:
 
@@ -180,13 +180,16 @@ This data set includes:
 
     |   |   |
     |---|---|
-    |  Customer Number | Offer Accepted   |
-    | Mailer Type  | Income Level  |
-    | Bank Accounts Open  |  Overdraft Protection |
-    |  Credit Rating | Credit Cards Held  |
-    | Homes Owned|Household Size|
-    | Own Your Home|Average Balance|
-    | Balance||
+    |daysonmarket | basement_square_feet | Building_Quality_0
+    |publicstudentteacherratio | land_square_footage | Building Quality_3
+    |publicstudentcnt | acres | Walls_0
+    |privatestudentcnt | taxrate | Walls_1
+    |squarefeet | totalamenities | Walls_4
+    |totaltourcount | x2_Condo&Manufactured | Roof_0
+    |privaterate | x2_Multi-Family | Roof_1
+    |garage_parking_square_feet | Foundation_Continuous Footing | Roof_2
+    |totalfavoritescount | Foundation_other | Roof_3
+    |publicschoolrate | Garage_Finished | Location_2
     |||
 
 

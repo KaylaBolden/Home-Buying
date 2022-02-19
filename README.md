@@ -126,39 +126,39 @@ cbd | yearrenovated
 
 # Feature Importance:
     
-    |Feature | Regression P-Val | Random Forest Feature Importance
-    |------------- | ------------- | -------------
-    |daysonmarket | 0.518 | 0.00592214
-    |publicstudentteacherratio | 0.344 | 0.004352648
-    |publicstudentcnt | 0.946 | 0.005487916
-    |privatestudentcnt | 0.385 | 0.006992907
-    |squarefeet | 0 | 0.02421013
-    |totaltourcount | 0.161 | 0.001894489
-    |privaterate | 0.128 | 0.005642923
-    |garage_parking_square_feet | 0.009 | 0.0081063
-    |totalfavoritescount | 0 | 0.008720093
-    |publicschoolrate | 0.001 | 0.006671266
-    |basement_square_feet | 0.038 | 0.001758376
-    |land_square_footage | 0.002 | 0.01105095
-    |acres | 0.319 | 0.02747586
-    |taxrate | 0 | 0.04166951
-    |totalamenities | 0.488 | 0.005520898
-    |x2_Condo&Manufactured | 0.19 | 0.002256557
-    |x2_Multi-Family | 0.195 | 0.001505547
-    |Foundation_Continuous Footing | 0 | 0.02464942
-    |Foundation_other | 0 | 0.007086104
-    |Garage_Finished | 0.02 | 0.002233992
-    |Garage_other | 0.328 | 0.00693243
-    |Building_Quality_0 | 0 | 0.4383543
-    |Building Quality_3 | 0 | 0.08868372
-    |Walls_0 | 0.005 | 0.002632515
-    |Walls_1 | 0.006 | 0.004978199
-    |Walls_4 | 0 | 0.007193782
-    |Roof_0 | 0.065 | 0.06866194
-    |Roof_1 | 0 | 0.005233747
-    |Roof_2 | 0 | 0.006545969
-    |Roof_3 | 0 | 0.1469811
-    |Location_2 | 0.068 | 0.00129702
+Feature | Regression P-Val | Random Forest Feature Importance
+------------- | ------------- | -------------
+daysonmarket | 0.518 | 0.00592214
+publicstudentteacherratio | 0.344 | 0.004352648
+publicstudentcnt | 0.946 | 0.005487916
+privatestudentcnt | 0.385 | 0.006992907
+squarefeet | 0 | 0.02421013
+totaltourcount | 0.161 | 0.001894489
+privaterate | 0.128 | 0.005642923
+garage_parking_square_feet | 0.009 | 0.0081063
+totalfavoritescount | 0 | 0.008720093
+publicschoolrate | 0.001 | 0.006671266
+basement_square_feet | 0.038 | 0.001758376
+land_square_footage | 0.002 | 0.01105095
+acres | 0.319 | 0.02747586
+taxrate | 0 | 0.04166951
+totalamenities | 0.488 | 0.005520898
+x2_Condo&Manufactured | 0.19 | 0.002256557
+x2_Multi-Family | 0.195 | 0.001505547
+Foundation_Continuous Footing | 0 | 0.02464942
+Foundation_other | 0 | 0.007086104
+Garage_Finished | 0.02 | 0.002233992
+Garage_other | 0.328 | 0.00693243
+Building_Quality_0 | 0 | 0.4383543
+Building Quality_3 | 0 | 0.08868372
+Walls_0 | 0.005 | 0.002632515
+Walls_1 | 0.006 | 0.004978199
+Walls_4 | 0 | 0.007193782
+Roof_0 | 0.065 | 0.06866194
+Roof_1 | 0 | 0.005233747
+Roof_2 | 0 | 0.006545969
+Roof_3 | 0 | 0.1469811
+Location_2 | 0.068 | 0.00129702
 
 
     Out of all the methods, Random Forest and Min-max scaler produced the highest accuracy:

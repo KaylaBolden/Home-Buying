@@ -197,3 +197,7 @@ A full analysis with visuals breaking down key drivers and customer demographic 
 
 # Presentation
 A powerpoint containing the agenda and tying it all together can be found in [**Offer Acceptance Slides.pptx**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home%20Buying.pptx). 
+
+# Jupyter Notebook
+A python code for data gathering can be found in [**Data Gathering.ipynb**](https://github.com/KaylaBolden/Home-Buying/blob/main/Data%20Gathering.ipynb). 
+A python code for the analysis can be found in [**Home-buying-Analysis.ipynb**](https://github.com/KaylaBolden/Home-Buying/blob/main/Home-buying-Analysis.ipynb). 

@@ -28,39 +28,39 @@ The housing market is nutoriouosly inefficient. Identifying the true value of a 
       1. Normalizer
       2. StandardScaler
       3. Min Max Scaler
-      5. math
-      6. statistics 
-      7. matplotlib.pyplot
-      8. seaborn
-      9. statsmodels.api
-      10. train_test_split
-      11. one hot encoder
-      12. numpy
-      13. pandas
-      14. statsmodels.formula.api
-      15. linear_model
-      16. is_numeric_dtype
-      17. Redfin
-      scipy
-      requests
-      urllib.parse
-      chi2_contingency
-      DBSCAN
-      LinearRegression
-      sklearn.metrics
-      sklearn.feature_selection
-      sklearn.linear_model
-      mean_squared_error
-      r2_score
-      mean_absolute_error
-      statsmodels.api 
-      tensorflow
-      train_test_split
-      RandomForestRegressor
-      make_regression
-      variance_inflation_factor
-      GridSearchCV
-      sklearn.decomposition.PCA
+      4. math
+      5. statistics 
+      6. matplotlib.pyplot
+      7. seaborn
+      8. statsmodels.api
+      9. train_test_split
+      10. one hot encoder
+      11. numpy
+      12. pandas
+      13. statsmodels.formula.api
+      14. linear_model
+      15. is_numeric_dtype
+      16. Redfin
+      17. scipy
+      18. requests
+      19. urllib.parse
+      20. chi2_contingency
+      21. DBSCAN
+      22. LinearRegression
+      23. sklearn.metrics
+      24. sklearn.feature_selection
+      25. sklearn.linear_model
+      26. mean_squared_error
+      27. r2_score
+      28. mean_absolute_error
+      29. statsmodels.api 
+      30. tensorflow
+      31. train_test_split
+      32. RandomForestRegressor
+      33. make_regression
+      34. variance_inflation_factor
+      35. GridSearchCV
+      36. sklearn.decomposition.PCA
 
  # Workflow
       1. Gather the Data 

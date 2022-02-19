@@ -1,7 +1,7 @@
 # Home-Buying
 
 
-![photo](https://github.com/KaylaBolden/Home-Buying)
+![photo](https://github.com/KaylaBolden/Home-Buying/blob/main/Screenshots/new_home_construction.jpg)
 
 # Objective 
 The housing market is nutoriouosly inefficient. Identifying the true value of a home compared to the price gives us an opportunity to use this inefficiency to our advantage. The goal is to build an algorythm that can identify how much a house is worth so that we can find opportunities for arbitrage when a home hits the market below its worth. If we can move fast enough via web scrapping thousands of for sale records and generating this output, we may be able make money before other bidders drive up the price.

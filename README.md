@@ -1,4 +1,4 @@
-# Home-Buying
+# Home Buying
 
 
 ![photo](https://github.com/KaylaBolden/Home-Buying/blob/main/Screenshots/new_home_construction.jpg)
